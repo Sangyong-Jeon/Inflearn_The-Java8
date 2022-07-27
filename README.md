@@ -24,7 +24,7 @@
 - <a href="https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션0.소개/자바8소개.md">자바 8 소개</a>
 ### 섹션 1. 함수형 인터페이스와 람다
 - [함수형 인터페이스와 람다 표현식 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/함수형인터페이스와%20람다표현식%20소개.md)
-
+- [자바에서 제공하는 함수형 인터페이스](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/자바에서%20제공하는%20함수형%20인터페이스.md)
 
 ### 섹션 2. 인터페이스의 변화
 
