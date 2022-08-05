@@ -26,6 +26,7 @@
 - [함수형 인터페이스와 람다 표현식 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/함수형인터페이스와%20람다표현식%20소개.md)
 - [자바에서 제공하는 함수형 인터페이스](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/자바에서%20제공하는%20함수형%20인터페이스.md)
 - [람다 표현식](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/람다%20표현식.md)
+- [메소드 레퍼런스](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/메소드%20레퍼런스.md)
 ### 섹션 2. 인터페이스의 변화
 
 ### 섹션 3. Stream
