@@ -1,43 +1,19 @@
 package me.whiteship.java8to11;
 
-import java.util.function.*;
+public interface Foo {
 
-public class Foo {
-    public static void main(String[] args) {
-        Foo foo = new Foo();
-        foo.run();
+    void printName();
+
+    /**
+     * @implSpec 이 구현체는 getName()으로 가져온 문자열을 대문자로 변환 후 출력한다.
+     */
+    default void printNameUpperCase() {
+        System.out.println(getName().toUpperCase());
     }
-    int baseNumber = 1;
 
-    private void run() {
-        // final int baseNumber = 10; // 자바8부터 final 생략 가능
-        int baseNumber = 10; // 로컬 변수
-
-        // 로컬 클래스에서 로컬 변수 참조
-        class LocalClass {
-            int baseNumber = 30;
-            void printBaseNumber() {
-                System.out.println(baseNumber);
-            }
-        }
-        LocalClass localClass = new LocalClass();
-        localClass.printBaseNumber();
-
-        // 익명 클래스에서 로컬 변수 참조
-        Consumer<Integer> integerConsumer = new Consumer<Integer>() {
-            int baseNumber = 20;
-            @Override
-            public void accept(Integer integer) {
-                System.out.println(baseNumber);
-            }
-        };
-        integerConsumer.accept(10);
-
-        // 람다에서 로컬 변수 참조
-        IntConsumer printInt = (i) -> {
-            System.out.println(i + baseNumber);
-        };
-
-        printInt.accept(10);
+    static void printAnything() {
+        System.out.println("Foo");
     }
+
+    String getName();
 }
