@@ -29,6 +29,7 @@
 - [메소드 레퍼런스](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션1.함수형인터페이스와%20람다/메소드%20레퍼런스.md)
 ### 섹션 2. 인터페이스의 변화
 - [인터페이스 기본 메소드와 스태틱 메소드](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션2.인터페이스의%20변화/인터페이스%20기본메소드와%20스태틱%20메소드.md)
+- [자바 8 API의 기본 메소드와 스태틱 메소드](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션2.인터페이스의%20변화/자바%208%20API의%20기본%20메소드와%20스태틱%20메소드.md)
 ### 섹션 3. Stream
 
 ### 섹션 4. Optional
