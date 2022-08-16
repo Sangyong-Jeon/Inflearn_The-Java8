@@ -32,6 +32,7 @@
 - [자바 8 API의 기본 메소드와 스태틱 메소드](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션2.인터페이스의%20변화/자바%208%20API의%20기본%20메소드와%20스태틱%20메소드.md)
 ### 섹션 3. Stream
 - [Stream 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/%EC%84%B9%EC%85%983.Stream/Stream%20%EC%86%8C%EA%B0%9C.md)
+- [Stream API](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션3.Stream/Stream%20API.md)
 ### 섹션 4. Optional
 
 ### 섹션 5. Date와 Time
