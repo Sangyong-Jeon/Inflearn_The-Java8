@@ -2,10 +2,10 @@
 
 - 걸러내기
   - filter(predicate)
-  - 예) 이름이 3글자 이상이 데이터마 새로운 스트림으로
+  - 예) 이름이 3글자 이상인 데이터만 새로운 스트림으로
 - 변경하기
   - map(function) 또는 flatMap(function)
-  - 예) 각각의 Post 인스턴스에서 String title만 새로우 스트림으로
+  - 예) 각각의 Post 인스턴스에서 String title만 새로운 스트림으로
   - 예) List<Stream<String>>을 String의 스트림으로
 - 생성하기
   - generate(supplier) 또는 iterate(T seed, UnaryOperator)
@@ -15,17 +15,17 @@
   - limit(long) 또는 skip(long)
   - 예) 최대 5개의 요소가 담긴 스트림을 리턴함
   - 예) 앞에서 3개를 빼 나머지 스트림을 리턴함
-- 스트림에 있는 데이터가 특정 조건으 만족하는지 확인
+- 스트림에 있는 데이터가 특정 조건을 만족하는지 확인
   - anyMatch(), allMatch(), nonMatch()
-  - 예) k로 시작하는 문자열이 있는지 확인한다. (true 또느 false 리턴)
+  - 예) k로 시작하는 문자열이 있는지 확인한다. (true 또는 false 리턴)
   - 예) 스트림에 있는 모든 값이 10보다 작은지 확인함
 - 개수 세기
   - count()
-  - 예) 10보다 큰 수으 개수르 센다
-- 스트림으 데이터 하날 뭉치기
+  - 예) 10보다 큰 수의 개수를 센다
+- 스트림을 데이터 하나로 뭉치기
   - reduce(identity, BiFucntion), collect(), sum(), max()
   - 예) 모든 숫자 합 구하기
-  - 예) 모든 데이터르 하나의 List 또는 Set에 옮겨 담기
+  - 예) 모든 데이터를 하나의 List 또는 Set에 옮겨 담기
   
 <br>
   
