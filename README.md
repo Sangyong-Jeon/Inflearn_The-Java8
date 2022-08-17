@@ -34,7 +34,7 @@
 - [Stream 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/%EC%84%B9%EC%85%983.Stream/Stream%20%EC%86%8C%EA%B0%9C.md)
 - [Stream API](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션3.Stream/Stream%20API.md)
 ### 섹션 4. Optional
-
+- [Optional 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션4.Optional/Optional%20소개.md)
 ### 섹션 5. Date와 Time
 
 ### 섹션 6. CompletableFuture
