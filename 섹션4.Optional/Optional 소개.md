@@ -131,3 +131,29 @@ Optional은 메소드 리턴타입으로 쓰라는 용도로 만들어 진 것�
 
 [스택오버플로우 댓글에서 참고하기](https://stackoverflow.com/questions/26327957/should-java-8-getters-return-optional-type/26328555#26328555)
 
+### 기본형 타입 Optional은 왜 쓸까?
+위 소개에서도 기본형 타입인 int를 넣게되면 Integer라는 wrapper 타입으로 감싸서 들어가게 된다. 이 과정을 박싱이라고 한다.
+하지만 OptionalInt를 사용하면 int가 그대로 들어가므로 변환하는 과정이 없으므로 상대적으로 성능이 더 좋다.
+
+한번 테스트를 해보자.
+
+<img width="396" alt="image" src="https://user-images.githubusercontent.com/80039556/185842290-f0bbd55a-6bd4-4beb-a1cd-29365572ec5f.png">
+
+먼저 int 타입인 `10`을 Optional.of()에 넣어서 생성하는 과정을 살펴보자.
+
+<img width="466" alt="image" src="https://user-images.githubusercontent.com/80039556/185842498-ad32dea5-4f3b-45d6-b236-2031e069258f.png">
+
+`Optional.of()` 매개변수로 들어가자마자 Integer 타입인 10으로 변환되어 Optional을 생성하게 된다.
+
+<img width="642" alt="image" src="https://user-images.githubusercontent.com/80039556/185842857-cfb978ee-18d1-4997-89e6-70cada130e23.png">
+
+`Optional.of(10)`이 끝나니까 `Optional<Integer>` 타입으로 만들어진 optional을 볼 수 있다.
+그 다음으로 `OptionalInt.of(20)`을 살펴보자.
+
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/80039556/185842979-c0772baf-3660-4633-b35b-c552016d007f.png">
+
+아까 Optional과 다르게 int 타입으로 받아와서 그대로 사용하는 것을 볼 수 있다.
+
+<img width="622" alt="image" src="https://user-images.githubusercontent.com/80039556/185843040-0dc233ec-d603-4a5b-ac99-bacc95e9a9e4.png">
+
+Integer로 형변환된 optional과 int로 사용하는 optionalInt를 볼 수 있다.
