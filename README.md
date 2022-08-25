@@ -37,7 +37,8 @@
 - [Optional 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션4.Optional/Optional%20소개.md)
 - [Optional API](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션4.Optional/Optional%20API.md)
 ### 섹션 5. Date와 Time
-- [Date와 Time API 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션5.Date와%20Time/Date와%20Time%20소개.md)
+- [Date와 Time 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션5.Date와%20Time/Date와%20Time%20소개.md)
+- [Date와 Time API](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션5.Date와%20Time/Date와%20Time%20API.md)
 ### 섹션 6. CompletableFuture
 
 ### 섹션 7. 그 밖에
