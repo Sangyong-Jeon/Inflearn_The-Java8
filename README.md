@@ -40,7 +40,7 @@
 - [Date와 Time 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션5.Date와%20Time/Date와%20Time%20소개.md)
 - [Date와 Time API](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션5.Date와%20Time/Date와%20Time%20API.md)
 ### 섹션 6. CompletableFuture
-
+- [자바 Concurrent 프로그래밍 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/자바%20Concurrent%20프로그래밍%20소개.md)
 ### 섹션 7. 그 밖에
 
 ### 섹션 8. 마무리
