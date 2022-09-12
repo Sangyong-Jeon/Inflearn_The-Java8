@@ -42,6 +42,7 @@
 ### 섹션 6. CompletableFuture
 - [자바 Concurrent 프로그래밍 소개](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/자바%20Concurrent%20프로그래밍%20소개.md)
 - [Executors](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/Executors.md)
+- [Callable과 Future](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/Callable과%20Future.md)
 ### 섹션 7. 그 밖에
 
 ### 섹션 8. 마무리
