@@ -10,17 +10,26 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 public class App {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        ExecutorService executorService = Executors.newFixedThreadPool(4);
-        CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> {
-            System.out.println("myomyo " + Thread.currentThread().getName());
-            return "myomyo";
-        }, executorService).thenRunAsync(() -> {
-            System.out.println(Thread.currentThread().getName());
-        }, executorService);
-        future.get();
-        executorService.shutdown();
+        boolean throwError = true;
+
+        CompletableFuture<String> hello = CompletableFuture.supplyAsync(() -> {
+            if (throwError) {
+                throw new IllegalArgumentException();
+            }
+            System.out.println("Hello " + Thread.currentThread().getName());
+            return "Hello";
+        }).handle((result, ex) -> {
+            if (ex != null) {
+                System.out.println(ex);
+                return "ERROR!";
+            }
+            return result;
+        });
+
+        System.out.println(hello.get());
     }
 }
