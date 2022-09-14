@@ -44,6 +44,7 @@
 - [Executors](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/Executors.md)
 - [Callable과 Future](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/Callable과%20Future.md)
 - [CompletableFuture 1](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/CompletableFuture%201.md)
+- [CompletableFuture 2](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/CompletableFuture%202.md)
 ### 섹션 7. 그 밖에
 
 ### 섹션 8. 마무리
