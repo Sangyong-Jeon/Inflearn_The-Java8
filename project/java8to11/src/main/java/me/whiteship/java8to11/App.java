@@ -1,35 +1,21 @@
 package me.whiteship.java8to11;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
+@Chicken("양념")
+@Chicken("마늘간장")
 public class App {
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
-        boolean throwError = true;
-
-        CompletableFuture<String> hello = CompletableFuture.supplyAsync(() -> {
-            if (throwError) {
-                throw new IllegalArgumentException();
-            }
-            System.out.println("Hello " + Thread.currentThread().getName());
-            return "Hello";
-        }).handle((result, ex) -> {
-            if (ex != null) {
-                System.out.println(ex);
-                return "ERROR!";
-            }
-            return result;
+    public static void main(String[] args) {
+        // 클래스에서 getAnnotationsByType()에 Chicken 타입을 주면, 그 타입에 해당하는 애노테이션을 배열로 다 가져옴
+        Chicken[] chickens = App.class.getAnnotationsByType(Chicken.class);
+        Arrays.stream(chickens).forEach(c -> {
+            System.out.println(c.value());
         });
 
-        System.out.println(hello.get());
+        // getAnnotation()은 애노테이션 1개만 가져오므로, 여기서는 ChickenContainer을 가져와서 감싸고 있는 값들을 전부 출력
+        ChickenContainer chickenContainer = App.class.getAnnotation(ChickenContainer.class);
+        Arrays.stream(chickenContainer.value()).forEach(c -> {
+            System.out.println(c.value());
+        });
     }
 }
