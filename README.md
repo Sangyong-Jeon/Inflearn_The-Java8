@@ -47,6 +47,7 @@
 - [CompletableFuture 2](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션6.CompletableFuture/CompletableFuture%202.md)
 ### 섹션 7. 그 밖에
 - [애노테이션의 변화](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션7.%20그%20밖에/애노테이션의%20변화.md)
+- [배열 병렬 정렬](https://github.com/Sangyong-Jeon/Inflearn_The-Java8/blob/main/섹션7.%20그%20밖에/배열%20병렬%20정렬.md)
 ### 섹션 8. 마무리
 
 # 강의 느낀점
